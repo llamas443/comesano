@@ -1,0 +1,86 @@
+body{
+            background-color: rgb(50, 146, 31);
+            margin: 0;
+            font-family: Arial, sans-serif;
+            border: 20px solid rgb(0, 0, 0);
+        }
+            
+        h1{
+            color:rgb(0, 0, 0);
+            text-align: center;
+        }
+
+        h2{
+            color:rgb(0, 0, 0);
+            text-align: center;
+            font-size: 20px;
+        }
+
+        h3{
+            color:rgb(0, 0, 0);
+            text-align: center;
+            font-size: 20px;
+        }
+
+        h4{
+            color:rgb(0, 0, 0);
+            text-align: center;
+            font-size: 20px;
+        }
+
+        h5{
+            color:rgb(0, 0, 0);
+            text-align: center;
+            font-size: 20px;
+        }
+
+        h6{
+            color:rgb(0, 0, 0);
+            text-align: center;
+            font-size: 20px;
+        }
+
+        p{
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            text-align: center;
+        }
+        .Titulo{
+            display: flex;
+            flex-direction: column;/* Divisiones verticales*/
+            height: 100vh;
+        }
+
+        .t2{
+            background-color: rgb(77, 245, 102);
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding:50px;
+            box-shadow: 5px 0 10px rgb(255, 255, 255);
+        }
+
+        
+        .main{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar{
+            background-color: rgb(77, 245, 102);
+            color: white;
+            width: 25%;/*ancho de la barra lateral*/
+            padding: 20xp;
+            box-shadow: 4px 0 5px rgb(255, 255, 255);
+        }
+
+        .main{
+    display: flex;
+    flex: 1;
+}
+.sidebar{
+    background-color: rgb(0, 255, 72);
+    color: white;
+    width: 25%;/*ancho de la barra lateral*/
+    padding: 20xp;
+    box-shadow: 4px 0 5px rgb(255, 255, 255);
+}
